@@ -3,8 +3,8 @@ clear
 cd server
 echo '''
      ₹____________________<😈>_____________________₹
-             Repository master : MR JINN
-       [ Telegram : https://t.me/MrJinnTelegram ]
+                         MRJINN
+        [ Telegram : https://t.me/MrJinnTelegram ]
       ₹____________________________________________₹
 ''' | lolcat
 
