@@ -47,7 +47,7 @@ echo " "
     elif [ $ch -eq 2 ];then
         cd $HOME
         cd JINNRAT
-        bash BuildAPK
+        bash .BuildAPK
 
         exit
     elif [ $ch -eq 3 ];then
