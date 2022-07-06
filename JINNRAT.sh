@@ -27,11 +27,11 @@ echo '''
       ₹___________________________________________₹
 ''' | lolcat
 echo " "
-echo -e "     $Purple==>$Yellow[1️⃣] Start index.js ✅$Green  "
-echo -e "     $Purple==>️$Yellow[2️⃣] BuildAPK ✅$Green        "
-echo -e "     $Purple==>$Yellow[3️⃣] setup ✅$Green           "
-echo -e "     $Purple==>$Yellow[4️⃣] Update ✅$Green          "
-echo -e "     $Purple==>$Yellow[5️⃣] exit ✅$Green            "                                                                           
+echo -e "     $Purple==>$Yellow[1️⃣] Start index.js $Green  "
+echo -e "     $Purple==>️$Yellow[2️⃣] BuildAPK $Green        "
+echo -e "     $Purple==>$Yellow[3️⃣] setup $Green           "
+echo -e "     $Purple==>$Yellow[4️⃣] Update $Green          "
+echo -e "     $Purple==>$Yellow[5️⃣] exit $Green            "                                                                           
 echo " "
 echo " "
 
