@@ -22,7 +22,7 @@ echo '''
 
                    𝕓𝕪 alvinbaby (MRJINN)
      ₹____________________<😈>_____________________₹
-                      ♻️ MRJINN ♻️
+                         MRJINN 
        [ Telegram : https://t.me/MrJinnTelegram ]
       ₹___________________________________________₹
 ''' | lolcat
