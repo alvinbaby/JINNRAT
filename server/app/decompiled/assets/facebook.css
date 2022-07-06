@@ -1,0 +1,157 @@
+.navbar-fb {
+	background: #3b5998;
+	width: 100%;
+	height: auto;
+	padding: 8px;
+
+
+}
+.navbar-fb img {
+    width: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.content-box-fb {
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.content-box-fb img {
+    width: 60px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    display: block;
+}
+.txt-login-fb {
+    width: 270px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 17px;
+    padding: 8px;
+    color: #90949c;
+    font-size: 16px;
+    font-family: Roboto;
+    text-align: center;
+    display: block;
+}
+.login-form input[type="text"],.login-form input[type="password"] {
+	width: 90%;
+	height: auto;
+	padding: 12px;
+	color: #000;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Lato',sans-serif;
+	border: 1px solid #bdbebf;
+	cursor: pointer;
+	outline: none;
+}
+.login-form input[type="text"] {
+    margin: 0;
+    padding-bottom: 13px;
+	border-bottom: none;
+	border-radius: 4px 4px 0 0;
+	box-shadow: 0 -1px 0 #E0E0E0 inset,0 0px 0px rgba(0,0,0,0.23) inset;
+}
+.login-form input[type="password"] {
+    margin: 0;
+	border-top: none;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 -0px 0 rgba(0,0,0,0.23) inset,0 0px 0px rgba(255,255,255,0.1);
+}
+.btn-login-fb {
+	background: #1778f2;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	color: #fff;
+	font-size: 14px;
+	font-family: Roboto;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 0px rgba(0, 0, 0, 0.3);
+	border: 1px solid #3578e5;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+	outline: none;
+	display: block;
+}
+.txt-create-account {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    color: #3b5998;
+    font-size: 13.5px;
+    font-family: Roboto;
+    text-align: center;
+}
+.txt-not-now {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    color: #3b5998;
+    font-size: 13.5px;
+    font-family: Roboto;
+    text-align: center;
+}
+.txt-forgotten-password {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    padding: 5px;
+    color: #7596c8;
+    font-size: 13.5px;
+    font-family: Roboto;
+    text-align: center;
+}
+.language-box {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.language-name {
+    width: 40%;
+    height: auto;
+    margin: 5px;
+    margin-bottom: 0px;
+    color: #3b5998;
+    font-size: 12px;
+    font-family: Roboto;
+    text-align: center;
+    display: inline-block;
+}
+.language-name i {
+    width: 23px;
+    padding: 4px;
+    color: #90949c;
+    border: 1px solid #3b5998;
+    border-radius: 3px;
+}
+.language-name-active {
+    color: #90949c;
+    font-weight: bold;
+}
+.copyright {
+    width: 40%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #90949c;
+    font-size: 12px;
+    font-family: Roboto;
+    text-align: center;
+    display: block;
+}

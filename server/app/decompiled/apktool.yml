@@ -1,0 +1,35 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: Instagram.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- jpg
+- webp
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '28'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  play-services-base.properties: '0'
+  firebase-database.properties: '0'
+  play-services-tasks.properties: '0'
+  firebase-auth-interop.properties: '8'
+  firebase-common.properties: '0'
+  play-services-basement.properties: '0'
+  firebase-storage.properties: '0'
+  firebase-database-collection.properties: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.6.1-SNAPSHOT (Powered By Apkmod)
+versionInfo:
+  versionCode: '1'
+  versionName: 1.0.0-alpha

