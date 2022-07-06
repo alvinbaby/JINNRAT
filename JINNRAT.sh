@@ -39,9 +39,7 @@ echo " "
    if [ $ch -eq 1 ];then
         cd $HOME
         cd JINNRAT
-        cd server
-        echo "Please wait..."
-        node index.js
+        bash .jinn.sh
 
         exit
     elif [ $ch -eq 2 ];then
