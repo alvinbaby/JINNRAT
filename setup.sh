@@ -50,6 +50,7 @@ echo " "
         rm -rf JINNRAT
         git clone https://github.com/alvinbaby/JINNRAT
         cd JINNRAT
+        chmod +x *
         bash setup.sh
 
         exit
