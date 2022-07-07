@@ -15,7 +15,7 @@ echo '''
        [ Telegram : https://t.me/MrJinnTelegram ]
       ₹___________________________________________₹
 ''' | lolcat
-
-echo "Please wait..."
+echo " [ exit ] => ( CTRL - C ) "
+echo "Please wait....✅"
 
 node index.js
