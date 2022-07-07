@@ -45,7 +45,7 @@ echo " "
     elif [ $ch -eq 2 ];then
         cd $HOME
         cd JINNRAT
-        bash .setup.sh
+        bash .setup
 
         exit
     elif [ $ch -eq 3 ];then
