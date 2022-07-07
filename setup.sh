@@ -13,30 +13,38 @@ White="\033[1;37m"       # White
 clear
 
 echo " "
-echo -e "     $Purple==>$Yellow[1️⃣] BuildAPK $Green  "
+echo -e "     $Purple==>$Yellow[1️⃣] index.js $Green        "
 
-echo -e "     $Purple==>️$Yellow[2️⃣] setup install $Green        "
+echo -e "     $Purple==>️$Yellow[2️⃣] BuildAPK $Green        "
 
-echo -e "     $Purple==>$Yellow[3️⃣] Update $Green           "
+echo -e "     $Purple==>$Yellow[3️⃣] setup install $Green   "
 
-echo -e "     $Purple==>$Yellow[4️⃣] exit $Green          "
-echo " "                                                                    
+echo -e "     $Purple==>$Yellow[4️⃣] Update $Green          "
+
+echo -e "     $Purple==>$Yellow[5️⃣] exit $Green            "                                                                    
+echo " "
 echo " "
 
     read ch
    if [ $ch -eq 1 ];then
         cd $HOME
         cd JINNRAT
-        bash .BuildAPK
+        bash JINN.sh
 
         exit
     elif [ $ch -eq 2 ];then
         cd $HOME
         cd JINNRAT
-        bash .setup
+        bash .BuildAPK
 
         exit
     elif [ $ch -eq 3 ];then
+        cd $HOME
+        cd JINNRAT
+        bash .setup
+
+        exit
+    elif [ $ch -eq 4 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
         cd $HOME
         rm -rf JINNRAT
@@ -45,7 +53,7 @@ echo " "
         bash setup.sh
 
         exit
-    elif [ $ch -eq 4 ];then
+    elif [ $ch -eq 5 ];then
         echo -e 
         cd $HOME
 
