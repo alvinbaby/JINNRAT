@@ -50,7 +50,7 @@ bash setup.sh
 ### Run
 
 ```
-bash JINN.sh
+bash setup.sh
 ```
 
 ---
