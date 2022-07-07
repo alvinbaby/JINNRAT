@@ -29,7 +29,7 @@ echo " "
    if [ $ch -eq 1 ];then
         cd $HOME
         cd JINNRAT
-        bash JINN.sh
+        bash .JINN
 
         exit
     elif [ $ch -eq 2 ];then
