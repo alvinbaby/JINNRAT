@@ -16,6 +16,6 @@ echo '''
       ₹___________________________________________₹
 ''' | lolcat
 echo "            [ exit ] => ( CTRL - C ) "
-echo "Please wait....✅"
+echo "Please wait....🌍"
 
 node index.js
