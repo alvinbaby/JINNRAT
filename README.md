@@ -85,12 +85,12 @@ bash setup.sh
 
 <div class="row">
   <div class="column">
-    <img src="https://github.com/alvinbaby/JINNRAT/blob/main/Files/IMG_20220705_174616.jpg" 
+    <img src="https://github.com/alvinbaby/JINNRAT/blob/main/Files/11.jpg" 
   </div>
   <div class="column">
-    <img src="https://github.com/alvinbaby/JINN-RAT/blob/main/Files/20220623_121728.png"
+    <img src="https://github.com/alvinbaby/JINNRAT/blob/main/Files/12.png"
   </div>
   <div class="column">
-    <img src="https://github.com/alvinbaby/JINN-RAT/blob/main/Files/20220623_121658.png"
+    <img src="https://github.com/alvinbaby/JINNRAT/blob/main/Files/20220623_121658.png"
   </div>
 </div>
