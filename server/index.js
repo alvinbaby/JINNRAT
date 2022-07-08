@@ -1,5 +1,5 @@
 /* 
-*   LizRat
+*   JINNRAT
 *   A Remote Access Control Application
 *   Author : alvinbaby
 *   github : https://github.com/
