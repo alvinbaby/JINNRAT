@@ -88,7 +88,7 @@ bash setup.sh
     <img src="https://github.com/alvinbaby/JINNRAT/blob/main/Files/11.jpg" 
   </div>
   <div class="column">
-    <img src="https://github.com/alvinbaby/JINNRAT/blob/main/Files/12.png"
+    <img src="https://github.com/alvinbaby/JINNRAT/blob/main/Files/12.jpg"
   </div>
   <div class="column">
     <img src="https://github.com/alvinbaby/JINNRAT/blob/main/Files/20220623_121658.png"
