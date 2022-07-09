@@ -41,13 +41,13 @@ A cloud based remote android managment suite, powered by NodeJS
 - Command Queuing
 - Built In APK Builder
 
-## detail video 
+## tutorial video
 
-https://youtu.be/gkaKWK8RoE4
+[ https://youtu.be/hprC4q9rkmY ]
 
 ---
 
-### install Termux
+### install setup Termux
 
 ```
 git clone https://github.com/alvinbaby/JINNRAT
