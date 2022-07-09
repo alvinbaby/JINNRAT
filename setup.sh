@@ -10,7 +10,13 @@ Purple="\033[1;35m"      # Purple
 Cyan="\033[1;36m"        # Cyan
 White="\033[1;37m"       # White
 
-clear
+clear                                                                                   
+echo -e "$Purple ███╗   ███╗██████╗  $Red        ██╗██╗███╗   ██╗███╗   ██╗ $Green  "
+echo -e "$Purple ████╗ ████║██╔══██╗ $Red        ██║██║████╗  ██║████╗  ██║ $Green  "   
+echo -e "$Purple ██╔████╔██║██████╔╝ $Red        ██║██║██╔██╗ ██║██╔██╗ ██║ $Green  "
+echo -e "$Purple ██║╚██╔╝██║██╔══██╗ $Red   ██   ██║██║██║╚██╗██║██║╚██╗██║ $Green  "
+echo -e "$Purple ██║ ╚═╝ ██║██║  ██║ $Red   ╚█████╔╝██║██║ ╚████║██║ ╚████║ $Green  "
+echo -e "$Purple ╚═╝     ╚═╝╚═╝  ╚═╝ $Red    ╚════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝ $Green  "
 
 echo " "
 echo -e "     $Purple==>$Yellow[1️⃣] index.js $Green        "
