@@ -54,6 +54,7 @@ echo " "
 
         exit
     elif [ $ch -eq 4 ];then
+        echo -e "\e[1;34m Apk copy sdcard please..."
         cd $HOME
         cd JINNRAT
         cd .RAT
