@@ -25,9 +25,11 @@ echo -e "     $Purple==>️$Yellow[2️⃣] BuildAPK $Green        "
 
 echo -e "     $Purple==>$Yellow[3️⃣] setup install $Green   "
 
-echo -e "     $Purple==>$Yellow[4️⃣] Update $Green          "
+echo -e "     $Purple==>$Yellow[4️⃣] Apk copy sdcard $Green "
 
-echo -e "     $Purple==>$Yellow[5️⃣] exit $Green            "                                                                    
+echo -e "     $Purple==>$Yellow[5️⃣] Update $Green          "
+
+echo -e "     $Purple==>$Yellow[6️⃣] exit $Green            "                                                                    
 echo " "
 echo " "
 
