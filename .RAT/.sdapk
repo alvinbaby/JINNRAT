@@ -4,4 +4,6 @@ cd $HOME
 cd JINNRAT
 cd app
 cp Instagram_signed.apk /sdcard
+cd ..
 bash setup.sh
+
