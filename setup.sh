@@ -33,7 +33,7 @@ echo -e "     $Purple==>$Yellow[6️⃣] exit $Green            "
 echo " "
 echo " "
 
-    read -p ${Y}"JINNRAT: "${W} user_input
+    read -p ${Y}"JINNRAT: "${W} ch
 echo
 
    if [ $ch -eq 1 ];then
