@@ -28,6 +28,6 @@ bash setup.sh
 clear 
 echo ''' installation done ✅✅✅ ''' | lolcat
 
-cd JINN-RAT
-chmod +x lizrat.sh
-bash lizrat.sh
+cd JINNRAT
+chmod +x setup.sh
+bash setup.sh
