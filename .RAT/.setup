@@ -21,6 +21,7 @@ clear
 apt install nodejs -y && npm install -g npm@6.14.10
 clear
 cd $HOME
+rm -rf master.zip
 wget https://raw.githubusercontent.com/Hax4us/Apkmod/master/setup.sh
 bash setup.sh
 
