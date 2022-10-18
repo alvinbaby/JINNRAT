@@ -19,17 +19,17 @@ echo -e "$Purple ██║ ╚═╝ ██║██║  ██║ $Red   ╚█
 echo -e "$Purple ╚═╝     ╚═╝╚═╝  ╚═╝ $Red    ╚════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝ $Green  "
 
 echo " "
-echo -e "     $Purple==>$Yellow[1️⃣] index.js $Green        "
+echo -e "     $Purple==>$Yellow[1] index.js $Green        "
 
-echo -e "     $Purple==>️$Yellow[2️⃣] BuildAPK $Green        "
+echo -e "     $Purple==>️$Yellow[2] BuildAPK $Green        "
 
-echo -e "     $Purple==>$Yellow[3️⃣] setup install $Green   "
+echo -e "     $Purple==>$Yellow[3] setup install $Green   "
 
-echo -e "     $Purple==>$Yellow[4️⃣] Apk copy sdcard $Green "
+echo -e "     $Purple==>$Yellow[4] Apk copy sdcard $Green "
 
-echo -e "     $Purple==>$Yellow[5️⃣] Update $Green          "
+echo -e "     $Purple==>$Yellow[5] Update $Green          "
 
-echo -e "     $Purple==>$Yellow[6️⃣] exit $Green            "                                                                    
+echo -e "     $Purple==>$Yellow[6] exit $Green            "                                                                    
 echo " "
 echo " "
 
@@ -78,11 +78,13 @@ echo
     elif [ $ch -eq 6 ];then
         echo -e 
         cd $HOME
+        cd
+        cd $HOME
 
         exit
         
     else
         echo -e "\e[4;32m Invalid Input !!! \e[0m"
-        pause
+        bash setup.sh
     fi
 done
